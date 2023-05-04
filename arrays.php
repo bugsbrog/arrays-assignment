@@ -3,7 +3,7 @@
 
 <html lang="en">
   <head>
-    <title>untitled</title>
+    <title>Arrays Assignment</title>
   </head>
   <body>
     Part 1.
