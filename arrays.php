@@ -10,6 +10,8 @@
     Part 1.
     <br />
     <?php
+    
+    // Normal array
     $string = array(
         "rain", "sunshine", "clouds", "hail",
         "sleet", "snow", "wind"
@@ -22,12 +24,15 @@
     Part 2.
     <br />
 
+    <!-- Associative array w/city, country -->
     <?php $assoc = array(
         "Japan" => "Tokyo", "Mexico" => "Mexico City",
         "USA" => "New York City", "India" => "Mumbai", "South Korea" => "Seoul",
         "China" => "Shanghai", "Nigeria" => "Lagos", "Argentina" => "Buenos 
 Aires", "Egypt" => "Cairo", "England" => "London"
     ); ?>
+
+    <!-- Loop through to put all data on the screen -->
     <?php foreach ($assoc as $country => $city) {
         echo $city . ", " . $country . "<br />";
     } ?><br />
